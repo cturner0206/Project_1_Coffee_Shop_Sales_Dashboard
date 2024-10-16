@@ -25,7 +25,9 @@ The initial data preparation/cleaning phase involved:
     
 # Building the Dashboard
 
+To create the dashboard visuals, pivot tables played a crucial role in organizing and segmenting the sales data. Each visual on the dashboard uses a different pivot table to filter the data. 
 
+The dashboard includes slicers linked to the pivot tables, which allows for interactivity and data exploration for end users. Users can click on specific product categories or time periods to filter the visuals dynamically, allowing for tailored insights and more in-depth analysis.
 
 # Results/Findings
 

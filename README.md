@@ -36,12 +36,22 @@ To create the dashboard visuals, pivot tables were used to organize and segment 
 Slicers and a timeline linked to the pivot tables allow for interactivity and filtering options for end users. Users can click on specific product categories, store locations, and time periods to filter the visuals dynamically, allowing for tailored insights and more in-depth analysis. There is also a notes page for any clarifications on interacting with the dashboard.
 
 The different pivot tables used: 
-1. ![piv1](https://github.com/user-attachments/assets/3e6735bd-dcec-4d83-96e7-3caf520df24d)
-2. ![piv2](https://github.com/user-attachments/assets/8bfa4f6b-aee5-4fc6-b85e-8c0a1c2e3ce4)
-3. ![piv3](https://github.com/user-attachments/assets/5155fc22-fea4-46eb-8fc0-3def9522192e)
-4. <img src="https://github.com/user-attachments/assets/51f1af79-a632-4752-bfde-c6188c6b0209" alt="piv4" width="500" />
-5. ![piv5](https://github.com/user-attachments/assets/809c251d-3ee0-4d71-92ca-946479af1257)
 
+   
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3e6735bd-dcec-4d83-96e7-3caf520df24d" ></td>
+    <td><img src="https://github.com/user-attachments/assets/8bfa4f6b-aee5-4fc6-b85e-8c0a1c2e3ce4" ></td>
+    <td><img src="https://github.com/user-attachments/assets/5155fc22-fea4-46eb-8fc0-3def9522192e" ></td>
+  </tr>
+ </table>
+ 
+ <table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/51f1af79-a632-4752-bfde-c6188c6b0209" ></td>
+    <td><img src="https://github.com/user-attachments/assets/809c251d-3ee0-4d71-92ca-946479af1257" ></td>
+  </tr>
+ </table>
 
 # Findings
 

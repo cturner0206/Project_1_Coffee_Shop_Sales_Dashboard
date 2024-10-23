@@ -7,35 +7,66 @@ Q1-Q2 Sales Dashboard for Coffee Shop
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Data Preparation and Cleaning](#data-preparation-and-cleaning)
-- [Data Analysis and Building the Dashboard](#data-analysis-and-building-the-dashboard)
+- [Building the Dashboard](#building-the-dashboard)
 - [Findings](#findings)
 - [Recommendations](#recommendations)
 
 # Project Overview
 
-The goal of this project was to develop a comprehensive Q1-Q2 sales dashboard for a coffee shop solely using Microsoft Excel. This dashboard aims to provide insights into sales performance, customer trends, and product popularity, enabling informed decision-making for business strategies.
+The goal of this project was to develop a comprehensive Q1-Q2 sales dashboard for a coffee shop solely using Microsoft Excel. This dashboard aims to enable informed decision-making for business strategies, helping the coffee shop optimize operations and improve sales. 
+
+### Objectives of the Dashboard:
+**Sales Performance Insights:**  
+- Analyze overall sales performance to identify trends and patterns.
+
+**Customer Trends:**  
+- Understand customer behavior and preferences.
+
+**Product Popularity:**  
+- Evaluate which products are performing well to inform inventory and marketing strategies.
 
 # Data Source
+The sales data used in this project is the `CoffeeShopSales.xlsx` file. 
 
-The sales data used in this project is the "CoffeeShopSales.xlsx" file. 
 
 # Data Preparation and Cleaning
 
-The initial data preparation/cleaning phase involved:
-- Understanding the different columns used in the dataset.
-- Inspecting the columns to see if there needed to be any changes to the data.
-- Making any necessary changes to clean the data using Power Query. Cleansing steps performed include:
-  - Assigning column headers and renaming  
-  - Changing data types
-  - Removing duplicates + fixing spelling errors in some of the products
-  - Breaking up the product detail column to have product size as a separate column
+The initial data preparation and cleaning phase involved the following steps:
+
+- **Understanding the Dataset:**  
+  Reviewed the different columns in the dataset to gain familiarity.
+
+- **Inspecting Columns:**  
+  Checked for any necessary changes or inconsistencies in the data.
+
+- **Data Cleaning with Power Query:**  
+  Performed the following cleansing steps:
+  - Assigned column headers and renamed columns for clarity.
+  - Changed data types. 
+  - Split the product detail column to create a separate column for product size.
+  - Removed duplicates and corrected spelling errors in product names.
+     > **Note:** Some minor spelling errors were not caught at first, and were later found when using slicers on the dashboard.
+
     
-# Data Analysis and Building the Dashboard
 
-To create the dashboard visuals, pivot tables were used to organize and segment the sales data. Each visual on the dashboard is built off of its own individual pivot table. 
-Slicers and a timeline linked to the pivot tables allow for interactivity and filtering options for end users. Users can click on specific product categories, store locations, and time periods to filter the visuals dynamically, allowing for tailored insights and more in-depth analysis. There is also a notes page for any clarifications on interacting with the dashboard.
+# Building the Dashboard
 
-The different pivot tables used: 
+To create the dashboard visuals, pivot tables were utilized to organize and segment the sales data. Each visual on the dashboard is based on its own individual pivot table.
+
+### Interactivity Features:
+- **Slicers and Timeline:**  
+  Linked to the pivot tables, slicers and a timeline enable interactivity and filtering options for end users. Users can dynamically filter visuals by:
+  - Product type/details
+  - Store locations
+  - Time periods
+
+This interactivity allows for tailored insights and more in-depth analysis.
+
+### Additional Information:
+- A notes page is included for clarifications on how to interact with the dashboard for users who may be inexperienced with Excel features.
+
+
+### The different pivot tables used: 
 
    
 <table>
@@ -53,17 +84,40 @@ The different pivot tables used:
   </tr>
  </table>
 
+
 # Findings
 
-- Daily sales follow the same trend of peaking from around 7am through 10am regardless of the month or store location.
-- Besides February being slightly lower than January in sales (likely due to there being less days), sales have been steadily increasing MoM.
-- The three different store locations have around 230k total sales each (Hell's Kitchen 236.5k, Astoria 232.2k, Lower Manhattan 230k) and follow the very similar top selling product trends over both quarters.
-- The percent of the top 10 selling products compared to total sales by location is Astoria at 80.74%, Lower Manhattan at 78.3%, and Hell's Kitchen at 77.7%.
-- Lower Manhattan has around 3k less total transactions (47.7k) compared to the other two locations (50.6k).
+### **Daily Sales Trends:**  
+  - Daily sales peak between approximately 7 AM and 10 AM, regardless of the month or store location.
+
+### **Month-over-Month Sales:**  
+  - Sales have been steadily increasing month-over-month (MoM), with February showing slightly lower sales than January, likely due to fewer days in the month.
+
+### **Sales by Location:**  
+  - Each of the three store locations has total sales around $230k:
+    - Hell's Kitchen: $236.5k
+    - Astoria: $232.2k
+    - Lower Manhattan: $230k  
+  - All locations exhibit very similar top-selling product trends over both quarters.
+
+### **Top 10 Products as a Percentage of Total Sales:**  
+  - The percentage of total sales attributed to the top 10 selling products by location is as follows:
+    - Astoria: **80.74%**
+    - Lower Manhattan: **78.3%**
+    - Hell's Kitchen: **77.7%**
+
+### **Total Transactions:**  
+  - Lower Manhattan has approximately 3,000 fewer total transactions (47.7k) compared to the other two locations, which each have around 50.6k transactions.
+
   
 # Recommendations
 
-- Evening Sales Initiatives: Explore opportunities to increase sales during slower hours (after 10 AM). Consider offering discounts or special events in the late afternoon or evening to attract customers.
-- Morning Promotions: Capitalize on peak hours by offering morning specials (e.g., buy one, get one free, or discounts on certain drinks) to increase foot traffic.
-- Diversify Menu: Given the reliance on the top 10 products, consider introducing seasonal items or limited-time offerings to attract customers and keep the menu fresh.
+**Evening Sales Initiatives:**
+ - Explore opportunities to increase sales during slower hours (after 10 AM). Consider offering discounts or special events in the late afternoon or evening to attract customers.
+   
+**Morning Promotions:**
+ - Capitalize on peak hours by offering morning specials (e.g., buy one, get one free, or discounts on certain drinks) to increase foot traffic.
+   
+**Diversify Menu:**
+ - Given the reliance on the top 10 products, consider introducing seasonal items or limited-time offerings to attract customers and keep the menu fresh.
 

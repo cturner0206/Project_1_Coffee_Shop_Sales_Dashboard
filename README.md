@@ -1,5 +1,5 @@
 # Project 1: Excel Coffee Shop Sales Dashboard
-Q1-Q2 Sales Dashboard for Coffee Shop 
+
 
  <img src="https://github.com/user-attachments/assets/c41416dc-15df-40f1-a345-0fdfbb895e85" alt="dash" width="900" />
 

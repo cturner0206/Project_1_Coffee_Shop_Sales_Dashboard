@@ -53,9 +53,17 @@ The initial data preparation and cleaning phase involved the following steps:
 
 To create the dashboard visuals, pivot tables were utilized to organize and segment the sales data. Each visual on the dashboard is based on its own individual pivot table.
 
+### Choosing Visuals:
+
+To allow end users to gain valuable insights from this dashboard, I decided to incorporate:
+
+- Cards to show an overview of total sales and transactions.
+- Line charts to highlight trends over time to identify patterns relating to sales throught the year and throughout the day.
+- Bar chart to allow for sales comparisons across the three locations, making it simple to spot performance variations on items.
+
 ### Interactivity Features:
 - **Slicers and Timeline:**  
-  Linked to the pivot tables, slicers and a timeline enable interactivity and filtering options for end users. Users can dynamically filter visuals by:
+  Linked to the pivot tables, slicers and a timeline are used to enable interactivity and filtering options for end users. Users can dynamically filter visuals by:
   - Product type/details
   - Store locations
   - Time periods

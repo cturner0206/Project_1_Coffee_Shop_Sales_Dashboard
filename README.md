@@ -96,16 +96,16 @@ This interactivity allows for tailored insights and more in-depth analysis.
 # Findings
 
 ### **Daily Sales Trends:**  
-  - Daily sales peak between approximately 7 AM and 10 AM, regardless of the month or store location.
+  - Daily sales peak between approximately **7 AM and 10 AM**, regardless of the month or store location.
 
 ### **Month-over-Month Sales:**  
-  - Sales have been steadily increasing month-over-month (MoM), with February showing slightly lower sales than January, likely due to fewer days in the month.
+  - Sales have been steadily **increasing month-over-month**, with February showing slightly lower sales than January, likely due to fewer days in the month.
 
 ### **Sales by Location:**  
-  - Each of the three store locations has total sales around $230k:
-    - Hell's Kitchen: $236.5k
-    - Astoria: $232.2k
-    - Lower Manhattan: $230k  
+  - Each of the three store locations has total sales around **$230k**:
+    - Hell's Kitchen: **$236.5k**
+    - Astoria: **$232.2k**
+    - Lower Manhattan: **$230k** 
   - All locations exhibit very similar top-selling product trends over both quarters.
 
 ### **Top 10 Products as a Percentage of Total Sales:**  
@@ -115,7 +115,7 @@ This interactivity allows for tailored insights and more in-depth analysis.
     - Hell's Kitchen: **77.7%**
 
 ### **Total Transactions:**  
-  - Lower Manhattan has approximately 3,000 fewer total transactions (47.7k) compared to the other two locations, which each have around 50.6k transactions.
+  - Lower Manhattan has approximately **3,000 fewer total transactions** (47.7k) compared to the other two locations, which each have around **50.6k transactions**.
 
   
 # Recommendations
